@@ -53,7 +53,7 @@ docker run -d -p 8082:8080 -e PROFILE=stg viniciosromano/fiap-checkpoint1
 ```
 
 #### Navegação por portas em diversos ambientes
-
+---
 - Base: 
 http://localhost:8080
 
