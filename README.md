@@ -37,7 +37,7 @@ docker run -d -p 8080:8080 -e PROFILE=<prg|dev|stg> fiap-checkpoint1
 
 * Executar container a partir do Docker Hub
 
-Profile prd
+Profile prg
 ```
 docker run -d -p 8080:8080 -e PROFILE=prg viniciosromano/fiap-checkpoint1
 ```
