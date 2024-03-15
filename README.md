@@ -52,7 +52,7 @@ Profile stg
 docker run -d -p 8082:8080 -e PROFILE=stg viniciosromano/fiap-checkpoint1
 ```
 
-#### Navegação por portas em diversos ambientes
+### Navegação por portas em diversos ambientes
 ---
 - Base: 
 http://localhost:8080
@@ -60,21 +60,21 @@ http://localhost:8080
 - Endpoint que retorna string "Pong em prg" no ambiente prg
 
 http://localhost:8080/ping
-
+---
 - Base: 
 http://localhost:8081
 
 - Endpoint que retorna string "Pong em dev" no ambiente prg
 
 http://localhost:8081/ping
-
+---
 - Base: 
 http://localhost:8082
 
 - Endpoint que retorna string "Pong em stg" no ambiente prg
 
 http://localhost:8082/ping
-
+---
 
 ## Features (Funcionalidades)
 
