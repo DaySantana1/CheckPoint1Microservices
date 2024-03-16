@@ -13,7 +13,7 @@ Aplicação proposto de desafio do checkpoint 1 da materia de microservice and w
 #### Clone
 
 ```
-git clone https://github.com/viniciosromano/fiap-checkpoint1.git
+git clone https://github.com/DaySantana1/fiap-checkpoint1.git
 ```
 
 ## Execução
@@ -39,17 +39,17 @@ docker run -d -p 8080:8080 -e PROFILE=<prg|dev|stg> fiap-checkpoint1
 
 Profile prg
 ```
-docker run -d -p 8080:8080 -e PROFILE=prg viniciosromano/fiap-checkpoint1
+docker run -d -p 8080:8080 -e PROFILE=prg dayanesantana/fiap-checkpoint1
 ```
 
 Profile dev
 ```
-docker run -d -p 8081:8080 -e PROFILE=dev viniciosromano/fiap-checkpoint1
+docker run -d -p 8081:8080 -e PROFILE=dev dayanesantana/fiap-checkpoint1
 ```
 
 Profile stg
 ```
-docker run -d -p 8082:8080 -e PROFILE=stg viniciosromano/fiap-checkpoint1
+docker run -d -p 8082:8080 -e PROFILE=stg dayanesantana/fiap-checkpoint1
 ```
 
 ### Navegação por portas em diversos ambientes (Porta do ambiente local pode ser alterada)
